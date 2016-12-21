@@ -12,9 +12,23 @@ it is: `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snippets/`
 4. Start or restart Sublime Text 3.
 
 ## Use
-These are the inluded snippets.  To use, type the snippet name in the text editing window of
-Sublime Text 3 and then the tab key.  The text should populate.
+These are the inluded snippets.  To use, type the **trigger text** in the text editing window of
+Sublime Text 3 and then the tab key.  The text should populate.  Keep tabbing to reach preset
+text insertion points.
 
-* **cfunc** - boilerplate for a very simple _hello\_world_-style C program.  Extension of current file must be `.c`.
-* **rclass** - boilerplate for a Ruby class.  Extension of current file must be .rb.  Tab once,
-enter the class name, tab again to enter arguments to `initialize`.
+### C
+Context must be **C**.
+
+* **hw** - boilerplate for a very simple _hello\_world_-style C program.
+
+### Ruby
+Context must be **Ruby** or **Ruby on Rails**.
+
+* **class** - boilerplate for a Ruby class.
+* **minitest** - boilerplate for a Minitest unit test.
+
+### Ruby ERB
+Context must be **HTML(Rails)**
+
+* **%** - expand to a non-printing ERB tag: `<% %>`
+* **%=** - expand to a printing ERB tag: `<%= %>`

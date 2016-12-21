@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+#include <stdio.h>
+
+int main(void) {
+  ${1:code}
+
+  printf("\n");
+  return 0;
+}
+]]></content>
+  <tabTrigger>hw</tabTrigger>
+  <scope>source.c</scope>
+  <description>C main function boilerplate</description>
+</snippet>

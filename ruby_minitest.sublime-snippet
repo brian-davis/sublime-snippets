@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+require 'minitest/autorun'
+require_relative "${1:file_name}"
+class ${2:class_name}Test < Minitest::Test
+  def ${3:test_name}
+    assert_equal false, true
+  end
+end
+]]></content>
+    <tabTrigger>minitest</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>minitest unit test</description>
+</snippet>

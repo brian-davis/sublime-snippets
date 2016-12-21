@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+class ${1:name}
+	def initialize ${2:args}
+	end
+end
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.ruby</scope>
+  <description>ruby class definition</description>
+</snippet>
