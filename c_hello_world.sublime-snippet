@@ -1,15 +1,15 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 #include <stdio.h>
 
 int main(void) {
-  ${1:code}
+	${1:code}
 
-  printf("\n");
-  return 0;
+	printf("\n");
+	return 0;
 }
 ]]></content>
-  <tabTrigger>hw</tabTrigger>
-  <scope>source.c</scope>
-  <description>C main function boilerplate</description>
+	<tabTrigger>hw</tabTrigger>
+	<scope>source.c</scope>
+	<description>C main function boilerplate</description>
 </snippet>
