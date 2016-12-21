@@ -16,3 +16,5 @@ These are the inluded snippets.  To use, type the snippet name in the text editi
 Sublime Text 3 and then the tab key.  The text should populate.
 
 * **cfunc** - boilerplate for a very simple _hello\_world_-style C program.  Extension of current file must be `.c`.
+* **rclass** - boilerplate for a Ruby class.  Extension of current file must be .rb.  Tab once,
+enter the class name, tab again to enter arguments to `initialize`.
