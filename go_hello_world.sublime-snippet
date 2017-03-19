@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+package main
+
+import "fmt"
+
+func main () {
+  ${1:code}
+}
+]]></content>
+  <tabTrigger>go</tabTrigger>
+  <scope>source.go</scope>
+  <description>Go main function boilerplate</description>
+</snippet>
