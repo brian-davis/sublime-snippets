@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+if err != nil {
+  ${1:then}
+}
+]]></content>
+  <tabTrigger>err</tabTrigger>
+  <scope>source.go</scope>
+</snippet>
